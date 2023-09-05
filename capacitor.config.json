@@ -1,0 +1,8 @@
+{
+	"appId": "com.ucielsola.lap.app",
+	"appName": "lap",
+	"webDir": "build",
+	"server": {
+		"androidScheme": "https"
+	}
+}
