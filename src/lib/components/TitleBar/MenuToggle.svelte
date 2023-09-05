@@ -1,8 +1,8 @@
 <script>
-	import navStore, { openMenu, closeMenu } from '$lib/stores/appStore';
+	import appStore, { openMenu, closeMenu } from '$lib/stores/appStore';
 
 	const handleClick = () => {
-		if ($navStore.isMenuOpen) {
+		if ($appStore.isMenuOpen) {
 			closeMenu();
 		} else {
 			openMenu();
@@ -11,9 +11,9 @@
 </script>
 
 <button class="flex flex-col gap-0.5 p-5" on:click={handleClick}>
-	<div class="w-4 h-0.5 rounded-xl bg-cyan-400/80" class:open-top={$navStore.isMenuOpen} />
-	<div class="w-4 h-0.5 rounded-xl bg-cyan-400/80" class:opacity-0={$navStore.isMenuOpen} />
-	<div class="w-4 h-0.5 rounded-xl bg-cyan-400/80" class:open-bottom={$navStore.isMenuOpen} />
+	<div class="w-4 h-0.5 rounded-xl bg-cyan-400/80" class:open-top={$appStore.isMenuOpen} />
+	<div class="w-4 h-0.5 rounded-xl bg-cyan-400/80" class:opacity-0={$appStore.isMenuOpen} />
+	<div class="w-4 h-0.5 rounded-xl bg-cyan-400/80" class:open-bottom={$appStore.isMenuOpen} />
 </button>
 
 <style>

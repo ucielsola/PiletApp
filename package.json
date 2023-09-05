@@ -35,6 +35,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@capacitor/android": "^5.3.0"
+		"@capacitor/android": "^5.3.0",
+		"@capacitor/app": "^5.0.6",
+		"nanoid": "^4.0.2"
 	}
 }

@@ -8,9 +8,11 @@ export const appRoutes: Route[] = [
     {
         path: "/record",
         title: "Registro",
+        icon: "bx:stopwatch"
     },
     {
         path: "/history",
         title: "Historial",
+        icon: "bx:history"
     }
 ]
