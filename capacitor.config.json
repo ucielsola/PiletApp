@@ -1,6 +1,6 @@
 {
-	"appId": "com.ucielsola.lap.app",
-	"appName": "lap",
+	"appId": "com.ucielsola.piletapp.app",
+	"appName": "PiletApp",
 	"webDir": "build",
 	"server": {
 		"androidScheme": "https"
