@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">lap</string>
-    <string name="title_activity_main">lap</string>
-    <string name="package_name">com.ucielsola.lap.app</string>
-    <string name="custom_url_scheme">com.ucielsola.lap.app</string>
+    <string name="app_name">PiletApp</string>
+    <string name="title_activity_main">PiletApp</string>
+    <string name="package_name">com.ucielsola.piletapp.app</string>
+    <string name="custom_url_scheme">com.ucielsola.piletapp.app</string>
 </resources>

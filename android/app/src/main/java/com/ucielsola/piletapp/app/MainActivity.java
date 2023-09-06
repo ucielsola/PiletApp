@@ -1,4 +1,4 @@
-package com.ucielsola.lap.app;
+package com.ucielsola.piletapp.app;
 
 import com.getcapacitor.BridgeActivity;
 
